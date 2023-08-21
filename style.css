@@ -6,7 +6,7 @@
 
 html {
     font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -14,13 +14,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     overflow-y: visible;
-  }
+}
 
 #mainFooter {
     display: none;
 }
 #tabletNavContainer {
-    display:  none;
+    display: none;
 }
 
 #searchContainer {
@@ -29,13 +29,13 @@ body {
     align-items: center;
     justify-content: space-around;
     margin: 16px;
-    border: 1px solid  rgba(213, 210, 210, 0.405);
+    border: 1px solid rgba(213, 210, 210, 0.405);
     border-radius: 30px;
     width: 85%;
     height: 10%;
     margin-left: 50%;
     translate: -50%;
-    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
     position: sticky;
     z-index: 1000;
 }
@@ -58,7 +58,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#searchContainer .fa-arrow-up-short-wide  {
+#searchContainer .fa-arrow-up-short-wide {
     border: 1px solid lightgray;
     font-size: 1.4rem;
     border-radius: 50%;
@@ -75,7 +75,7 @@ footer {
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    border: 1px solid  rgba(213, 210, 210, 0.405);
+    border: 1px solid rgba(213, 210, 210, 0.405);
 }
 
 #mobileNavContainer div {
@@ -87,10 +87,12 @@ footer {
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
-   
 }
 
-#mobilNavContainer ,.fa-search,.fa-heart,.fa-circle-user {
+#mobilNavContainer,
+.fa-search,
+.fa-heart,
+.fa-circle-user {
     font-size: 2rem;
     padding-bottom: 5px;
     color: lightgray;
@@ -149,133 +151,130 @@ main .distance-date {
         font-size: 16px;
     }
 
-
     #searchContainer {
         display: none;
     }
-#mobileNavContainer {
-    display: none;
-}
+    #mobileNavContainer {
+        display: none;
+    }
 
-#tabletNavContainer {
-    margin-top: 16px;
-    margin-left: 50%;
-    translate: -50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
-    width: 90vw;
-    font-size: 0.8rem;
-    border-bottom: 1px solid lightgray;
-    position: sticky;
-    z-index: 1000;
-    padding-bottom: 5px;
-}
+    #tabletNavContainer {
+        margin-top: 16px;
+        margin-left: 50%;
+        translate: -50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        font-size: 0.8rem;
+        border-bottom: 1px solid lightgray;
+        position: sticky;
+        z-index: 1000;
+        padding-bottom: 5px;
+    }
 
+    #firstPartOfTabletNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
-#firstPartOfTabletNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
+    #airbnbLaptopLogo {
+        display: none;
+    }
 
-#airbnbLaptopLogo {
-    display: none;
-}
+    #airbnbTabletLogo {
+        width: 40%;
+        height: auto;
+    }
 
-#airbnbTabletLogo {
-    width: 40%;
-    height:auto;
-}
+    #tabletSearchContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(213, 210, 210, 0.405);
+        border-radius: 30px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+        position: sticky;
+    }
 
-#tabletSearchContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid  rgba(213, 210, 210, 0.405);
-    border-radius: 30px;
-    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.1);
-    position: sticky; 
-}
+    #tabletSearchContainer .fa-globe,
+    .fa-bars,
+    .fa-circle-user {
+        font-size: 1.2rem;
+        color: gray;
+        text-align: center;
+    }
 
-#tabletSearchContainer .fa-globe,.fa-bars,
-.fa-circle-user {
-    font-size: 1.2rem;
-    color: gray;
-    text-align: center;
-}
+    #navLastIcon {
+        border: 1px solid lightgray;
+        border-radius: 40%;
+        padding: 8px;
+    }
 
-#navLastIcon {
-    border: 1px solid lightgray;
-    border-radius: 40%;
-    padding: 8px;
-}
+    #tabletSearchContainer div {
+        padding: 8px;
+    }
 
-#tabletSearchContainer div {
-    padding: 8px;  
-}
+    #borderOfSC {
+        display: flex;
+        border-right: 0.5px solid lightgray;
+        font-weight: bold;
+    }
 
-#borderOfSC {
-    display: flex;
-    border-right: 0.5px solid lightgray;
-    font-weight: bold;
-}
+    #tabletSearchContainer .fa-search {
+        font-size: 0.7rem;
+        color: white;
+        border-radius: 50%;
+        border-left: 10px solid #ff5a60;
+        border-right: 10px solid #ff5a60;
+        border-top: 7px solid #ff5a60;
+        border-bottom: 5px solid #ff5a60;
+        background-color: #ff5a60;
+    }
 
+    #lastPartOfNavBar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-#tabletSearchContainer .fa-search {
-    font-size: 0.7rem;
-    color: white;
-    border-radius: 50%;
-    border-left: 10px solid #FF5A60;
-    border-right: 10px solid #FF5A60;
-    border-top: 7px solid #FF5A60;
-    border-bottom: 5px solid #FF5A60;
-    background-color: #FF5A60;
-}
+    #lastPartOfNavBar div {
+        padding-right: 20px;
+    }
 
-#lastPartOfNavBar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
+    #mainFooter {
+        margin-top: auto;
+        background-color: white;
+        border-top: 1px solid lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 0.8rem;
+    }
 
-#lastPartOfNavBar div{
-padding-right: 20px;
-}
+    #mainFooter ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 5px;
+        list-style: none;
+    }
 
+    #mainFooter ul li {
+        margin: 5px;
+    }
 
-#mainFooter {
-    margin-top: auto;
-    background-color: white;
-    border-top: 1px solid lightgray;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;  
-    font-size: 0.8rem;
-}
-
-#mainFooter ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 5px;
-    list-style: none;
-}
-
-#mainFooter ul li {
-    margin: 5px;
-}
-
-#tabletFooter2 {
-   flex-direction: row;
-   flex-wrap: nowrap;
-}
+    #tabletFooter2 {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 
     main {
         display: flex;
@@ -307,135 +306,134 @@ padding-right: 20px;
     #searchContainer {
         display: none;
     }
-#mobileNavContainer {
-    display: none;
-}
+    #mobileNavContainer {
+        display: none;
+    }
 
-#tabletNavContainer {
-    margin-top: 16px;
-    margin-left: 50%;
-    translate: -50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 90vw;
-    font-size: 1rem;
-    border-bottom: 1px solid lightgray;
-    position: sticky;
-    z-index: 1000;
-    padding-bottom: 5px;
-}
+    #tabletNavContainer {
+        margin-top: 16px;
+        margin-left: 50%;
+        translate: -50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        font-size: 1rem;
+        border-bottom: 1px solid lightgray;
+        position: sticky;
+        z-index: 1000;
+        padding-bottom: 5px;
+    }
 
-#airbnbTabletLogo {
-    display: none;
-}
+    #airbnbTabletLogo {
+        display: none;
+    }
 
-#airbnbLaptopLogo {
-    width: 40%;
-}
+    #airbnbLaptopLogo {
+        width: 40%;
+    }
 
-#firstPartOfTabletNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
+    #firstPartOfTabletNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-#airbnbTabletLogo {
-    width: 40%;
-    height:auto;
-}
+    #airbnbTabletLogo {
+        width: 40%;
+        height: auto;
+    }
 
-#tabletSearchContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid  rgba(213, 210, 210, 0.405);
-    border-radius: 30px;
-    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.1);
-    position: sticky; 
-    padding-left:5px;
-    padding-right: 5px;
-}
+    #tabletSearchContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(213, 210, 210, 0.405);
+        border-radius: 30px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
-#tabletSearchContainer .fa-globe,.fa-bars,
-.fa-circle-user {
-    font-size: 1.2rem;
-    color: gray;
-    text-align: center;
-}
+    #tabletSearchContainer .fa-globe,
+    .fa-bars,
+    .fa-circle-user {
+        font-size: 1.2rem;
+        color: gray;
+        text-align: center;
+    }
 
-#navLastIcon {
-    border: 1px solid lightgray;
-    border-radius: 40%;
-    padding: 8px;
-}
+    #navLastIcon {
+        border: 1px solid lightgray;
+        border-radius: 40%;
+        padding: 8px;
+    }
 
-#tabletSearchContainer div {
-    padding: 8px;  
-}
+    #tabletSearchContainer div {
+        padding: 8px;
+    }
 
-#borderOfSC {
-    display: flex;
-    border-right: 0.5px solid lightgray;
-    font-weight: bold;
-}
+    #borderOfSC {
+        display: flex;
+        border-right: 0.5px solid lightgray;
+        font-weight: bold;
+    }
 
-  
-#tabletSearchContainer .fa-search {
-    font-size: 0.7rem;
-    color: white;
-    border-radius: 50%;
-    border-left: 10px solid #FF5A60;
-    border-right: 10px solid #FF5A60;
-    border-top: 7px solid #FF5A60;
-    border-bottom: 5px solid #FF5A60;
-    background-color: #FF5A60;
-}
+    #tabletSearchContainer .fa-search {
+        font-size: 0.7rem;
+        color: white;
+        border-radius: 50%;
+        border-left: 10px solid #ff5a60;
+        border-right: 10px solid #ff5a60;
+        border-top: 7px solid #ff5a60;
+        border-bottom: 5px solid #ff5a60;
+        background-color: #ff5a60;
+    }
 
-#lastPartOfNavBar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
+    #lastPartOfNavBar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
-#lastPartOfNavBar div{
-padding-right: 10px;
-}
+    #lastPartOfNavBar div {
+        padding-right: 10px;
+    }
 
-#mainFooter {
-    margin-top: auto;
-    background-color: white;
-    border-top: 1px solid lightgray;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;  
-    font-size: 0.8rem;
-}
+    #mainFooter {
+        margin-top: auto;
+        background-color: white;
+        border-top: 1px solid lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 0.8rem;
+    }
 
-#mainFooter ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 5px;
-    list-style: none;
-}
+    #mainFooter ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 5px;
+        list-style: none;
+    }
 
-#mainFooter ul li {
-    margin: 5px;
-}
+    #mainFooter ul li {
+        margin: 5px;
+    }
 
-#tabletFooter2 {
-   flex-direction: row;
-   flex-wrap: nowrap;
-}
+    #tabletFooter2 {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 
-=======
     main {
         display: flex;
         flex-flow: row wrap;
@@ -458,5 +456,4 @@ padding-right: 10px;
         width: 100%;
         height: 400px;
     }
->>>>>>> d73c0d46d1661c73777d2001f81ad6726034eb70
 }
