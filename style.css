@@ -61,7 +61,7 @@ main .distance-date {
     opacity: 75%;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
->>>>>>> 51d43d0079976ba8eef90059435ecdc6b8e40118
+
     html {
         font-size: 14px;
     }
@@ -88,11 +88,9 @@ main .distance-date {
         height: 400px;
     }
 }
-<<<<<<< HEAD
-@media only screen and (min-width: 1025px) {
-=======
+@media only screen and (min-width: 1025px) 
 @media screen and (min-width: 1025px) {
->>>>>>> 51d43d0079976ba8eef90059435ecdc6b8e40118
+
     html {
         font-size: 14px;
     }
