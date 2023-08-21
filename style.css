@@ -29,6 +29,7 @@ main .house {
     border-radius: 20px;
     aspect-ratio: 1/1;
     width: 100%;
+    max-height: 50vh;
 }
 main .bold {
     font-weight: 600;
@@ -86,6 +87,7 @@ main .distance-date {
     html {
         font-size: 16px;
     }
+
     main {
         display: flex;
         flex-flow: row wrap;
@@ -96,22 +98,16 @@ main .distance-date {
         font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
             "Helvetica Neue", sans-serif;
         padding: 2%;
-        border: solid red 2px;
     }
     main .listing {
         max-width: 45%;
-        max-height: 50vh;
         margin: 20px 0;
-        border: solid black 2px;
     }
     main .house {
         border-radius: 20px;
         aspect-ratio: 1/1;
         /* max-width: 400px; */
         width: 100%;
-        /* max-height: 25vh; */
-    }
-    main #first-listing {
-        max-height: 325px;
+        height: 400px;
     }
 }
