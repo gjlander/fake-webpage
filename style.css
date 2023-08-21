@@ -42,9 +42,7 @@ main .listing-text {
     margin-top: 8px;
 }
 
-<<<<<<< HEAD
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-=======
 main .location {
     display: flex;
     justify-content: space-between;
@@ -59,6 +57,7 @@ main .text-margin:last-of-type {
 main .distance-date {
     color: #717171;
     opacity: 75%;
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -88,7 +87,6 @@ main .distance-date {
         height: 400px;
     }
 }
-@media only screen and (min-width: 1025px) 
 @media screen and (min-width: 1025px) {
 
     html {
