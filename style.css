@@ -594,34 +594,38 @@ main .listing-text {
     }
 }
 
-.container {
-    display: flex;
+@media screen and (max-width: 500px) {
+    .filters ul {
+        float: none;
+        display: flex;
 
-    margin-top: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    justify-items: center;
-    align-items: center;
+    }
+    
 }
 
 .filters ul {
-    display: inline-flex;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
     flex-direction: row;
     justify-content: space-evenly ;
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
     padding: 50px;
-    margin: 0;
     max-width: 90%;
     margin: 0 auto;
     text-align: justify;
     margin-top: 1px solid black;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #222222;
 }
 .filters p {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    
     list-style: none;
     padding: 10px;
     margin: 0;
@@ -647,8 +651,10 @@ button {
     max-width: 6rem;
     background-color: #ffffff;
     contain: content;
+    padding: 10px;
+    margin-left: 10px;
 }
 
-.filters ul li :hover {
+.filters ul li  :hover {
     border-bottom-style: solid;
 }
