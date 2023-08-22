@@ -605,8 +605,9 @@ main .listing-text {
 
 .filters ul {
     display: flex;
-    overflow: hidden;
     overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     flex-direction: row;
     justify-content: space-evenly ;
     align-items: center;
