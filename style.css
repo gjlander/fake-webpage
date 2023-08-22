@@ -118,15 +118,20 @@ main .distance-date {
 }
 
 .container {
+    display: flex;
+
     margin-top: 10px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    justify-items: center;
+    align-items: center;
 }
 
 .filters ul{
     display: inline-flex; 
     flex-direction: row;
     justify-content: space-evenly ;
+    align-items: center;
     list-style: none;
     padding: 50px;
     margin: 0;
@@ -139,7 +144,7 @@ main .distance-date {
 .filters p {
     display: flex; 
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     list-style: none;
     padding: 10px;
     margin: 0;
