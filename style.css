@@ -7,13 +7,13 @@
 html {
     font-size: 12px;
 
-
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    font-family: 'Montserrat', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
 
     font-family: "Montserrat", sans-serif;
 
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -103,7 +103,6 @@ footer {
     font-size: 2rem;
     padding-bottom: 5px;
     color: lightgray;
-
 }
 main {
     display: flex;
@@ -139,25 +138,108 @@ main .listing-text {
     margin-top: 8px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-main .location {
-    display: flex;
-    justify-content: space-between;
+.container {
+    margin-top: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-main .text-margin {
-    margin-top: 3px;
+.filters ul {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 1px solid black;
 }
-main .text-margin:last-of-type {
-    margin-top: 8px;
+.filters p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    color: #222222;
+    text-decoration: none;
+    font-size: 14px;
 }
-main .distance-date {
-    color: #717171;
-    opacity: 75%;
+
+.filters ul li {
+    max-height: 1rem;
+    max-width: 8rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.filters ul li img {
+    max-width: 1.5em;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    main .location {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .text-margin {
+        margin-top: 3px;
+    }
+    main .text-margin:last-of-type {
+        margin-top: 8px;
+    }
+    main .distance-date {
+        color: #717171;
+        opacity: 75%;
+    }
+    .container {
+        margin-top: 10px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .filters ul {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        padding: 50px;
+        margin: 0;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        margin-top: 1px solid black;
+    }
+    .filters p {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        color: #222222;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .filters ul li {
+        max-height: 1rem;
+        max-width: 8rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .filters ul li img {
+        max-width: 1.5em;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
     html {
         font-size: 14px;
     }
@@ -309,10 +391,51 @@ main .distance-date {
         width: 100%;
         height: 400px;
     }
+    .container {
+        margin-top: 10px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .filters ul {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        padding: 50px;
+        margin: 0;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        margin-top: 1px solid black;
+    }
+    .filters p {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        color: #222222;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .filters ul li {
+        max-height: 1rem;
+        max-width: 8rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .filters ul li img {
+        max-width: 1.5em;
+    }
 }
 
 @media (min-width: 1025px) {
-
     html {
         font-size: 14px;
     }
@@ -477,21 +600,20 @@ main .distance-date {
     border-bottom: 1px solid black;
 }
 
-.filters ul{
-    display: inline-flex; 
+.filters ul {
+    display: inline-flex;
     flex-direction: row;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     list-style: none;
     padding: 50px;
     margin: 0;
     max-width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
     text-align: justify;
     margin-top: 1px solid black;
-
 }
 .filters p {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
@@ -499,29 +621,26 @@ main .distance-date {
     margin: 0;
     color: #222222;
     text-decoration: none;
-    font-size: 14px; 
-
+    font-size: 14px;
 }
 
-.filters ul li{
+.filters ul li {
     max-height: 1rem;
-    max-width:8rem;
-    display:flex;
-    flex-flow:column;
-    justify-content:center;
-    align-items:center;
+    max-width: 8rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.filters ul li img{
+.filters ul li img {
     max-width: 1.5em;
 }
 
 button {
     max-width: 6rem;
     background-color: #ffffff;
-    contain: content ;
-
-
+    contain: content;
 }
 
 .filters ul li :hover {
