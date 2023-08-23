@@ -617,9 +617,13 @@ main .listing-text {
     max-width: 90%;
     margin: 0 auto;
     text-align: justify;
-    margin-top: 1px solid black;
+    margin-top: 1px;
     border-top: 1px solid #222222;
     border-bottom: 1px solid #222222;
+}
+
+.filters ul::-webkit-scrollbar {
+    display: none;
 }
 .filters p {
     display: flex;
